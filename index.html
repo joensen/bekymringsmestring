@@ -7,11 +7,53 @@
         <meta name="msapplication-tap-highlight" content="no" />
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
         <title>Hello World</title>
     </head>
     <body>
         <div class="app">
-            <h1>Test</h1>
+            <div data-role="page" id="side1">
+            <div data-role="header">
+                <h1>Spørgsmål 1</h1>
+            </div>
+            <div role="main" class="ui-content">
+                <p>Har du en bekymring?</p>
+                <a href="#side2" class="ui-btn ui-shadow" data-transition="slide">Ja</a><br/>
+                <a href="#side3" class="ui-btn ui-shadow" data-transition="slide">Nei</a>
+            </div>
+            <div data-role="footer">
+                <h1>Bekymringsmestring</h1>
+            </div>
+        </div>
+
+        <div data-role="page" id="side2">
+            <div data-role="header">
+                <h1>Spørgsmål 2</h1>
+            </div>
+            <div role="main" class="ui-content">
+                <p>Omhandler bekymringen  din en tanke om en mulig fremtidig hendelse som du er redd for, eller omhandler tanken et ekte problem du oplever nå?</p>
+                <a href="#side4" class="ui-btn ui-shadow" data-transition="slide">Ja</a><br/>
+                <a href="#side5" class="ui-btn ui-shadow" data-transition="slide">Nei</a><br/>
+                <a href="#side1" data-transition="fade">Forsiden</a>
+            </div>
+            <div data-role="footer">
+                <h1>Bekymringsmestring</h1>
+            </div>
+        </div>
+
+        <div data-role="page" id="side3">
+            <div data-role="header">
+                <h1>Side 3</h1>
+            </div>
+            <div role="main" class="ui-content">
+                <p>Vel, da er det bare å legge  bort dette app og heller vende tilbake til det når en bekyrming dukker opp.</p>
+                <a href="#side1" data-transition="fade">Forsiden</a>
+            </div>
+            <div data-role="footer">
+                <h1>Bekymringsmestring</h1>
+            </div>
+        </div>
         </div>
         <script type="text/javascript" src="cordova.js"></script>
     </body>
