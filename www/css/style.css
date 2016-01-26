@@ -3,10 +3,10 @@ p {
 	font-weight: bold;
 }
 
-.button1 {
+.ui-page-theme-a .ui-btn.button1 {
 	background-color: lightgreen;
 }
 
-.button2 {
+.ui-page-theme-a .ui-btn.button2 {
 	background-color: lightpink;
 }
