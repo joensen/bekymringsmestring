@@ -30,13 +30,10 @@
 
   <preference name="StatusBarOverlaysWebView" value="false" />
   <preference name="StatusBarBackgroundColor" value="#000000" />
-
   
   <icon src="icon.png" />
 
-  <access origin="*"/>
-  
-  
+  <access origin="*"/>  
  
   <platform name="android">
     <allow-intent href="market:*"/>

@@ -9,6 +9,7 @@
         <script src="js/jquery-1.12.0.min.js"></script>
         <script src="js/jquery.mobile-1.4.5.min.js"></script>
         <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+        <link rel="stylesheet" href="css/style.css" />
         <title>Bekymringsmestring</title>
     </head>
     <body>
@@ -19,27 +20,21 @@
                 </div>
                 <div role="main" class="ui-content">
                     <p>Har du en bekymring?</p>
-                    <a href="#side2" class="ui-btn ui-shadow" data-transition="slide">Ja</a><br/>
-                    <a href="#side3" class="ui-btn ui-shadow" data-transition="slide">Nei</a>
-                </div>
-                <div data-role="footer">
-                    <h1>Bekymringsmestring</h1>
+                    <a href="#side2" style="background-color: lightgreen;" class="ui-btn ui-shadow" data-transition="slide">Ja</a><br/>
+                    <a href="#side3" style="background-color: lightpink;" class="ui-btn ui-shadow" data-transition="slide">Nei</a>
                 </div>
             </div>
 
             <div data-role="page" id="side2">
                 <div data-role="header">
-                    <a href="#" data-rel="back">Back</a>
+                    <a href="#" data-icon="carat-l" data-rel="back">Back</a>
                     <h1>Bekymringsmestring</h1>
                 </div>
                 <div role="main" class="ui-content">
-                    <p>Omhandler bekymringen  din en tanke om en mulig fremtidig hendelse som du er redd for, eller omhandler tanken et ekte problem du oplever nå?</p>
-                    <a href="#side4" class="ui-btn ui-shadow" data-transition="slide">Ja</a><br/>
-                    <a href="#side5" class="ui-btn ui-shadow" data-transition="slide">Nei</a><br/>
+                    <p class="question" style="font-size: 1.5em; font-weight: bold;">Omhandler bekymringen  din en tanke om en mulig fremtidig hendelse som du er redd for, eller omhandler tanken et ekte problem du oplever nå?</p>
+                    <a href="#side4" style="background-color: lightgreen;" class="ui-btn ui-shadow" data-transition="slide">Ja</a><br/>
+                    <a href="#side5" style="background-color: lightpink;" class="ui-btn ui-shadow" data-transition="slide">Nei</a><br/>
                     <a href="#side1" data-transition="fade">Forsiden</a>
-                </div>
-                <div data-role="footer">
-                    <h1>Bekymringsmestring</h1>
                 </div>
             </div>
 
@@ -50,9 +45,6 @@
                 <div role="main" class="ui-content">
                     <p>Vel, da er det bare å legge  bort dette app og heller vende tilbake til det når en bekyrming dukker opp.</p>
                     <a href="#side1" data-transition="fade">Forsiden</a>
-                </div>
-                <div data-role="footer">
-                    <h1>Bekymringsmestring</h1>
                 </div>
             </div>
         </div>
