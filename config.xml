@@ -11,7 +11,7 @@
 
   <plugin name="cordova-plugin-whitelist" spec="1.2.1" />
   <plugin name="cordova-plugin-statusbar" source="npm" />
-  <plugin name="cordova-plugin-inappbrowser" source="npm" />
+  
 
   <preference name="permissions" value="none"/>
   <preference name="orientation" value="portrait"/>
