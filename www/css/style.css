@@ -1,12 +1,10 @@
 p {
 	font-size: 1.5em;
 	font-weight: bold;
+	text-align: center;
 }
 
 .ui-page-theme-a .ui-btn.button1 {
-	background-color: lightgreen;
-}
-
-.ui-page-theme-a .ui-btn.button2 {
-	background-color: lightpink;
+	background-color: skyblue;
+	font-size: 1.4em;
 }
