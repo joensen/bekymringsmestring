@@ -9,8 +9,7 @@
   <author href="http://joensen.eu" email="andreas@joensen.eu">Andreas Joensen</author>
   <content src="index.html"/>
 
-  <plugin name="cordova-plugin-whitelist" spec="1.2.1" />
-  <plugin name="cordova-plugin-statusbar" />
+  
 
   <preference name="permissions" value="none"/>
   <preference name="orientation" value="portrait"/>
@@ -32,7 +31,8 @@
   <preference name="StatusBarBackgroundColor" value="#000000" />
   
 
-  <!-- iPhone 6 / 6+ -->
+  <plugin name="cordova-plugin-whitelist" spec="1.2.1" />
+  <plugin name="cordova-plugin-statusbar" />
 
 
 
