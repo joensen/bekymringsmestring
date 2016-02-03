@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.bekymringsmestring" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>WorryCure2</name>
+    <name>Bekyrming</name>
     <description>Bekyrmingsmestring flowchart</description>
     <author email="andreas@joensen.eu" href="http://joensen.eu">Andreas Joensen</author>
     <content src="index.html" />
@@ -47,5 +47,4 @@
     <icon height="144" platform="ios" src="icon-72@2x.png" width="144" />
     <icon height="50" platform="ios" src="icon-50.png" width="50" />
     <icon height="100" platform="ios" src="icon-50@2x.png" width="100" />
-    <engine name="ios" spec="~3.9.2" />
 </widget>
