@@ -4,7 +4,7 @@
     <description>Bekyrmingsmestring flowchart</description>
     <author email="andreas@joensen.eu" href="http://joensen.eu">Andreas Joensen</author>
     <content src="index.html" />
-    
+
     <preference name="permissions" value="none" />
     <preference name="orientation" value="portrait" />
     <preference name="target-device" value="universal" />
@@ -75,4 +75,6 @@
     <icon src="icons/ios/xhdpi.png" platform="android" qualifier="xhdpi" />
     <icon src="icons/ios/xxhdpi.png" platform="android" qualifier="xxhdpi" />
     <icon src="icons/ios/xxxhdpi.png" platform="android" qualifier="xxxhdpi" />
+
+    <splash src="splash.png" />
 </widget>
